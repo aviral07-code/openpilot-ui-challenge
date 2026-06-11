@@ -35,7 +35,7 @@ This workspace has been fully tested on Apple Silicon (M4 Architecture) using Py
 ### 1. Setup Environment
 Clone the repository, initialize a virtual environment, and activate it:
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/aviral07-code/openpilot-ui-challenge>
 cd openpilot-ui-challenge
 python3 -m venv venv
 source venv/bin/activate
