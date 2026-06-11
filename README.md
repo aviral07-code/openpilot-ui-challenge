@@ -40,6 +40,11 @@ cd openpilot-ui-challenge
 python3 -m venv venv
 source venv/bin/activate
 
-2. Install DependenciesBashpip install -r requirements.txt
-3. ExecutionLaunch the validation and simulation framework dashboard:Bashpython main.py
+### 2. Install Dependencies
+Bash
+pip install -r requirements.txt
+### 3. Execution
+Launch the validation and simulation framework dashboard:
+Bash
+pythonmain.py
  Validation InstructionsUtilize the integrated right-hand Telemetry Simulation Control Rig to test the specific engineering constraints:Slide the Confidence Matrix Down: Note the linear, seamless color transition from Teal to Amber to Red. Observe the automated flashing animation below 0.30.Shift Steering/Braking Controls towards Max Extents (1.00 or -1.00): Observe the indicator element smoothly move out towards the bounding envelope walls. Watch it transition its color profile to map warning vectors before terminal failure thresholds occur.
